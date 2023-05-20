@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* logo designing  */
+
+#logo{
+    margin: 1% 1%;
+}
+
+#logo img{
+    height: auto;
+    width: 46px;
+    margin: -13px -4px;
+    border-radius: 30px;
+}
+
+/* Navigation Bar  */
+#navbar{
+    display: flex;
+    border: 2px solid whitesmoke;
+    margin-bottom: 23px;
+}
+/* #navbar{} */
+
+#search{
+    padding: 10px 0px;
+}
+/* search bar  */
+#navbar input{
+    padding: 15px 48px;
+    width: 168px;
+    border-radius: 25px;
+    margin: -2px 3px 4px -7px;
+    background-color: rgb(242, 244, 247);
+    border: 2px solid  rgb(242, 244, 247);
+}
+.search::placeholder{  
+   font-size: 17px;
+   position: relative;
+   top: auto;
+   right: 15px;   
+}
+#s-img{
+    position: sticky;
+    margin: 22px 10px 28px -260px;
+    width: 18px;
+    background-color:  rgb(242, 244, 247);
+    color:  rgb(242, 244, 247);
+    border-radius: 6px 10px 5px 10px;
+    border: 2px solid  rgb(242, 244, 247);
+}
+
+/* Home section  */
